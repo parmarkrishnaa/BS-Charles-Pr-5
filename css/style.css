@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* team section start */
+
+.team .team-title h2{
+    font-size: 35px;
+}
+
+.grey-line{
+    width: 45px;
+    height: 3px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.team .border .team-content .team-img-overlay{
+    opacity: 0;
+    background-color: #01254bbb;
+    transition: 1s !important;
+}
+
+.team .border:hover .team-content .team-img-overlay{
+    opacity: 1;
+    transform: rotateX(360deg);
+}
+
+.team-icon a i{
+    transition: 0.5s;
+}
+
+.team-icon a:hover{
+    background-color: white;
+}
+
+.team-icon a:hover i{
+    color: #01254bbb;
+}
+
+/* team section end */
+
+/* company section start */
+
+.company .btn{
+    background-color: #01254b;
+    transition: all 0.5s ease-in-out;
+}
+
+.company .btn:hover{
+    background-color: #050f46;
+}
+
+/* company section end */
